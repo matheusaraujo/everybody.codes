@@ -1,0 +1,4 @@
+*.txt
+
+lib/go/*.go
+!lib/go/main.go
