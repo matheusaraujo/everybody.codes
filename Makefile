@@ -1,8 +1,8 @@
 format:
-	@./lib/go/format.sh $(year) $(day)
+	@./lib/go/format.sh $(year) $(quest)
 
 check:
-	@./lib/go/check.sh $(year) $(day)
+	@./lib/go/check.sh $(year) $(quest)
 
 run:
-	@./lib/go/run.sh $(year) $(day) $(part)
+	@./lib/go/run.sh $(year) $(quest) $(part)
